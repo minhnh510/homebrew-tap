@@ -1,8 +1,8 @@
 class Keepitclean < Formula
   desc "Safety-first macOS developer storage cleaner"
   homepage "https://github.com/minhnh510/keepitclean"
-  url "https://github.com/minhnh510/keepitclean/releases/download/v0.1.0/keepitclean-v0.1.0-macos-universal.tar.gz"
-  sha256 "4c0b90ffcc608000e5a8cabd0a65a420e99fe82ec46a55d0f17d2626b00d31fe"
+  url "https://github.com/minhnh510/keepitclean/releases/download/v0.1.1/keepitclean-v0.1.1-macos-universal.tar.gz"
+  sha256 "57ad4ac5b9fb62899ddbfb809e2f927de20924d1782e788593f248169e33e671"
   license "GPL-3.0-only"
 
   depends_on macos: :sonoma
@@ -28,7 +28,7 @@ class Keepitclean < Formula
       To install its fixed, allowlisted helper after reviewing the source, run:
         #{libexec}/install-helper.sh
 
-      Release binaries are ad-hoc signed and not Apple-notarized in v0.1.0.
+      Release binaries are ad-hoc signed and not Apple-notarized in v0.1.1.
     EOS
   end
 
